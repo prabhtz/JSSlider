@@ -1,0 +1,16 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.clrfix:before, .clrfix:after { 
+	 content: "";  
+	display: table; 
+} 
+
+.clrfix:after {  
+	clear: both;
+ } 
+
+.clrfix {  zoom: 1; /* IE6&7 */ }

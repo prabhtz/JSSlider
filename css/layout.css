@@ -1,0 +1,61 @@
+.slider-container {
+	width: 640px;
+	height: 480px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+	border-radius: 40px;
+}
+
+.images {
+
+}
+
+.images img {
+	width: 640px;
+	height: 480px;
+	position: absolute;
+	display: inline;
+}
+
+.left-arrow {
+	position: absolute;
+	background: url("../images/left-arrow.png") no-repeat left center;
+	width: 80px;
+	top: 0;
+	bottom: 0;
+	display: none;
+
+}
+
+.right-arrow {
+	position: absolute;
+	background: url("../images/right-arrow.png") no-repeat right center;
+	width: 80px;
+	top: 0;
+	bottom: 0;
+	right: 0px;
+	display: none;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+	cursor: pointer;
+}
+
+.bullet-nav {
+	position: absolute;
+	bottom: 25px;
+	left: 45%;
+}
+
+.bullet-nav span {
+	width: 20px;
+	height: 20px;
+	float: left;
+	display: inline-block;
+	background: url("../images/bullet-passive.png") no-repeat bottom center;
+}
+
+.bullet-nav span:hover {
+	cursor: pointer;
+}

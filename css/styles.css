@@ -1,0 +1,24 @@
+.slider-container {
+	margin: 0 auto;
+	width: 640px;
+	height: 480px;
+	overflow: hidden;
+}
+
+.images {
+	width: 2400px;
+	height: 480px;
+	position: relative;
+	transition: margin-left 2s;
+}
+
+.images img {
+	width: 640px;
+	height: 480px;
+	float: left;
+	display: inline-block;
+}
+
+.slider-container:active .images{
+	margin-left: -640px;
+}
